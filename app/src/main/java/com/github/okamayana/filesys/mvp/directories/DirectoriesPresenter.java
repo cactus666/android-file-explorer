@@ -1,8 +1,34 @@
 package com.github.okamayana.filesys.mvp.directories;
 
-/**
- * Created by odhita_kamayana on 1/29/2018.
- */
+public class DirectoriesPresenter implements DirectoriesContract.Presenter {
 
-public class DirectoriesPresenter {
+    @Override
+    public void start() {
+
+    }
+
+    @Override
+    public void navigateTo(String absolutePath) {
+
+    }
+
+    @Override
+    public void navigateUp() {
+
+    }
+
+    @Override
+    public void delete(DirectoriesContract.Model... models) {
+
+    }
+
+    @Override
+    public void rename(DirectoriesContract.Model model, String newFileName) {
+
+    }
+
+    @Override
+    public void openDetails(DirectoriesContract.Model model) {
+
+    }
 }

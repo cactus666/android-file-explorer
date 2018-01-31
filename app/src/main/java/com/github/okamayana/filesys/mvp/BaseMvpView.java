@@ -1,6 +1,6 @@
 package com.github.okamayana.filesys.mvp;
 
-public interface BaseView<T extends BasePresenter> {
+public interface BaseMvpView<T extends BaseMvpPresenter> {
 
     void setPresenter(T presenter);
 }
